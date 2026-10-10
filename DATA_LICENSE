@@ -1,0 +1,11 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This license applies only to the project-generated benchmark data in
+`data/exbind_v2/` and `data/fixed_tables/`, including associated observations,
+labels, mappings, and generator metadata included in this release. Attribution:
+ExBind project, anonymous review release.
+
+Full license: https://creativecommons.org/licenses/by/4.0/
+
+This license does not apply to materials identified as excluded in
+`THIRD_PARTY_NOTICES.md`, model weights, or files obtained from upstream sources.

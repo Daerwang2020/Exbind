@@ -1,0 +1,1110 @@
+{
+  "release": "ExBind anonymous review release",
+  "file_count": 277,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 67
+    },
+    {
+      "path": "DATA_LICENSE",
+      "size_bytes": 540
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 817
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2950
+    },
+    {
+      "path": "REPRODUCE.md",
+      "size_bytes": 1542
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size_bytes": 729
+    },
+    {
+      "path": "data/exbind_v2/broad/benchmark_manifest.json",
+      "size_bytes": 3240
+    },
+    {
+      "path": "data/exbind_v2/broad/binding_records.jsonl",
+      "size_bytes": 1202104
+    },
+    {
+      "path": "data/exbind_v2/broad/generator_gate_summary.csv",
+      "size_bytes": 493
+    },
+    {
+      "path": "data/exbind_v2/broad/generator_gates.csv",
+      "size_bytes": 47648
+    },
+    {
+      "path": "data/exbind_v2/broad/interface_gate_summary.csv",
+      "size_bytes": 360
+    },
+    {
+      "path": "data/exbind_v2/broad/latent_instances.jsonl",
+      "size_bytes": 471044
+    },
+    {
+      "path": "data/exbind_v2/broad/model_pilot_status.csv",
+      "size_bytes": 144
+    },
+    {
+      "path": "data/exbind_v2/broad/rendered_instances.jsonl",
+      "size_bytes": 930104
+    },
+    {
+      "path": "data/exbind_v2/cross_format/cross_format_consistency_gold.csv",
+      "size_bytes": 2817
+    },
+    {
+      "path": "data/exbind_v2/cross_format/cross_format_consistency_summary.csv",
+      "size_bytes": 76
+    },
+    {
+      "path": "data/exbind_v2/cross_format/cross_format_groups.jsonl",
+      "size_bytes": 14263
+    },
+    {
+      "path": "data/exbind_v2/cross_format/cross_format_validation.csv",
+      "size_bytes": 3985
+    },
+    {
+      "path": "data/exbind_v2/cross_format/latent_instances.jsonl",
+      "size_bytes": 471044
+    },
+    {
+      "path": "data/exbind_v2/targeted/binding_records.jsonl",
+      "size_bytes": 1637640
+    },
+    {
+      "path": "data/exbind_v2/targeted/gate_summary.json",
+      "size_bytes": 2741
+    },
+    {
+      "path": "data/exbind_v2/targeted/generator_gates.csv",
+      "size_bytes": 51953
+    },
+    {
+      "path": "data/exbind_v2/targeted/hard_pilot_manifest.json",
+      "size_bytes": 1319
+    },
+    {
+      "path": "data/exbind_v2/targeted/latent_instances.jsonl",
+      "size_bytes": 876600
+    },
+    {
+      "path": "data/fixed_tables/cases.jsonl",
+      "size_bytes": 340565
+    },
+    {
+      "path": "data/fixed_tables/construction_audit.json",
+      "size_bytes": 1165
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_001.html",
+      "size_bytes": 6556
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_002.html",
+      "size_bytes": 6558
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_003.html",
+      "size_bytes": 6555
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_004.html",
+      "size_bytes": 6555
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_005.html",
+      "size_bytes": 6552
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_006.html",
+      "size_bytes": 6553
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_007.html",
+      "size_bytes": 6551
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_008.html",
+      "size_bytes": 6556
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_009.html",
+      "size_bytes": 6552
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_010.html",
+      "size_bytes": 6558
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_011.html",
+      "size_bytes": 6557
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_012.html",
+      "size_bytes": 6552
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_013.html",
+      "size_bytes": 6548
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_014.html",
+      "size_bytes": 6551
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_015.html",
+      "size_bytes": 6555
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_016.html",
+      "size_bytes": 6551
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_017.html",
+      "size_bytes": 6558
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_018.html",
+      "size_bytes": 6555
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_019.html",
+      "size_bytes": 6550
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_020.html",
+      "size_bytes": 6558
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_021.html",
+      "size_bytes": 6555
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_022.html",
+      "size_bytes": 6551
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_023.html",
+      "size_bytes": 6554
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_024.html",
+      "size_bytes": 6551
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_025.html",
+      "size_bytes": 6553
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_026.html",
+      "size_bytes": 6551
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_027.html",
+      "size_bytes": 6556
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_028.html",
+      "size_bytes": 6551
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_029.html",
+      "size_bytes": 6555
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_030.html",
+      "size_bytes": 6554
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_031.html",
+      "size_bytes": 6561
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_032.html",
+      "size_bytes": 6554
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_033.html",
+      "size_bytes": 6553
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_034.html",
+      "size_bytes": 6550
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_035.html",
+      "size_bytes": 6557
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_036.html",
+      "size_bytes": 6548
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_037.html",
+      "size_bytes": 6549
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_038.html",
+      "size_bytes": 6556
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_039.html",
+      "size_bytes": 6550
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_040.html",
+      "size_bytes": 6559
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_041.html",
+      "size_bytes": 6544
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_042.html",
+      "size_bytes": 6557
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_043.html",
+      "size_bytes": 6557
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_044.html",
+      "size_bytes": 6552
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_045.html",
+      "size_bytes": 6545
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_046.html",
+      "size_bytes": 6554
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_047.html",
+      "size_bytes": 6551
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_048.html",
+      "size_bytes": 6557
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_049.html",
+      "size_bytes": 6551
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_050.html",
+      "size_bytes": 6556
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_051.html",
+      "size_bytes": 6557
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_052.html",
+      "size_bytes": 6553
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_053.html",
+      "size_bytes": 6548
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_054.html",
+      "size_bytes": 6556
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_055.html",
+      "size_bytes": 6559
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_056.html",
+      "size_bytes": 6556
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_057.html",
+      "size_bytes": 6554
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_058.html",
+      "size_bytes": 6547
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_059.html",
+      "size_bytes": 6556
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_060.html",
+      "size_bytes": 6559
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_061.html",
+      "size_bytes": 6552
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_062.html",
+      "size_bytes": 6549
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_063.html",
+      "size_bytes": 6552
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_064.html",
+      "size_bytes": 6552
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_065.html",
+      "size_bytes": 6557
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_066.html",
+      "size_bytes": 6550
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_067.html",
+      "size_bytes": 6549
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_068.html",
+      "size_bytes": 6558
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_069.html",
+      "size_bytes": 6552
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_070.html",
+      "size_bytes": 6550
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_071.html",
+      "size_bytes": 6554
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_072.html",
+      "size_bytes": 6557
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_073.html",
+      "size_bytes": 6555
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_074.html",
+      "size_bytes": 6553
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_075.html",
+      "size_bytes": 6551
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_076.html",
+      "size_bytes": 6556
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_077.html",
+      "size_bytes": 6557
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_078.html",
+      "size_bytes": 6552
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_079.html",
+      "size_bytes": 6556
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_080.html",
+      "size_bytes": 6547
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_081.html",
+      "size_bytes": 6555
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_082.html",
+      "size_bytes": 6548
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_083.html",
+      "size_bytes": 6558
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_084.html",
+      "size_bytes": 6555
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_085.html",
+      "size_bytes": 6557
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_086.html",
+      "size_bytes": 6555
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_087.html",
+      "size_bytes": 6553
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_088.html",
+      "size_bytes": 6559
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_089.html",
+      "size_bytes": 6545
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_090.html",
+      "size_bytes": 6555
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_091.html",
+      "size_bytes": 6551
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_092.html",
+      "size_bytes": 6556
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_093.html",
+      "size_bytes": 6551
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_094.html",
+      "size_bytes": 6552
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_095.html",
+      "size_bytes": 6560
+    },
+    {
+      "path": "data/fixed_tables/html/table_v3_096.html",
+      "size_bytes": 6546
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_001.png",
+      "size_bytes": 244968
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_002.png",
+      "size_bytes": 241270
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_003.png",
+      "size_bytes": 247770
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_004.png",
+      "size_bytes": 244252
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_005.png",
+      "size_bytes": 240700
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_006.png",
+      "size_bytes": 247614
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_007.png",
+      "size_bytes": 239949
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_008.png",
+      "size_bytes": 247641
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_009.png",
+      "size_bytes": 239171
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_010.png",
+      "size_bytes": 248770
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_011.png",
+      "size_bytes": 240976
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_012.png",
+      "size_bytes": 243579
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_013.png",
+      "size_bytes": 245211
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_014.png",
+      "size_bytes": 243403
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_015.png",
+      "size_bytes": 246503
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_016.png",
+      "size_bytes": 246815
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_017.png",
+      "size_bytes": 243068
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_018.png",
+      "size_bytes": 244760
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_019.png",
+      "size_bytes": 245762
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_020.png",
+      "size_bytes": 248097
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_021.png",
+      "size_bytes": 243468
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_022.png",
+      "size_bytes": 247246
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_023.png",
+      "size_bytes": 250594
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_024.png",
+      "size_bytes": 246802
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_025.png",
+      "size_bytes": 248854
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_026.png",
+      "size_bytes": 252466
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_027.png",
+      "size_bytes": 249558
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_028.png",
+      "size_bytes": 251098
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_029.png",
+      "size_bytes": 247044
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_030.png",
+      "size_bytes": 248065
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_031.png",
+      "size_bytes": 245328
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_032.png",
+      "size_bytes": 249358
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_033.png",
+      "size_bytes": 248228
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_034.png",
+      "size_bytes": 249266
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_035.png",
+      "size_bytes": 251074
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_036.png",
+      "size_bytes": 248740
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_037.png",
+      "size_bytes": 242811
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_038.png",
+      "size_bytes": 250280
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_039.png",
+      "size_bytes": 250386
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_040.png",
+      "size_bytes": 247731
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_041.png",
+      "size_bytes": 245144
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_042.png",
+      "size_bytes": 247348
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_043.png",
+      "size_bytes": 246359
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_044.png",
+      "size_bytes": 247006
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_045.png",
+      "size_bytes": 248132
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_046.png",
+      "size_bytes": 244484
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_047.png",
+      "size_bytes": 246067
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_048.png",
+      "size_bytes": 245807
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_049.png",
+      "size_bytes": 248640
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_050.png",
+      "size_bytes": 246136
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_051.png",
+      "size_bytes": 250051
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_052.png",
+      "size_bytes": 246528
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_053.png",
+      "size_bytes": 247925
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_054.png",
+      "size_bytes": 242300
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_055.png",
+      "size_bytes": 251241
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_056.png",
+      "size_bytes": 248823
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_057.png",
+      "size_bytes": 246264
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_058.png",
+      "size_bytes": 249152
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_059.png",
+      "size_bytes": 248632
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_060.png",
+      "size_bytes": 247651
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_061.png",
+      "size_bytes": 247544
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_062.png",
+      "size_bytes": 249413
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_063.png",
+      "size_bytes": 247315
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_064.png",
+      "size_bytes": 249931
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_065.png",
+      "size_bytes": 246316
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_066.png",
+      "size_bytes": 253382
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_067.png",
+      "size_bytes": 246110
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_068.png",
+      "size_bytes": 250014
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_069.png",
+      "size_bytes": 244872
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_070.png",
+      "size_bytes": 244433
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_071.png",
+      "size_bytes": 244771
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_072.png",
+      "size_bytes": 247135
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_073.png",
+      "size_bytes": 247680
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_074.png",
+      "size_bytes": 249037
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_075.png",
+      "size_bytes": 245113
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_076.png",
+      "size_bytes": 248421
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_077.png",
+      "size_bytes": 246573
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_078.png",
+      "size_bytes": 246073
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_079.png",
+      "size_bytes": 247239
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_080.png",
+      "size_bytes": 247590
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_081.png",
+      "size_bytes": 249368
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_082.png",
+      "size_bytes": 245852
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_083.png",
+      "size_bytes": 248299
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_084.png",
+      "size_bytes": 246743
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_085.png",
+      "size_bytes": 250817
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_086.png",
+      "size_bytes": 247987
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_087.png",
+      "size_bytes": 250000
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_088.png",
+      "size_bytes": 247631
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_089.png",
+      "size_bytes": 247360
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_090.png",
+      "size_bytes": 249368
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_091.png",
+      "size_bytes": 247978
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_092.png",
+      "size_bytes": 245296
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_093.png",
+      "size_bytes": 244750
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_094.png",
+      "size_bytes": 245613
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_095.png",
+      "size_bytes": 246339
+    },
+    {
+      "path": "data/fixed_tables/images/table_v3_096.png",
+      "size_bytes": 250833
+    },
+    {
+      "path": "data/fixed_tables/inference_inputs/development_image_cases.jsonl",
+      "size_bytes": 55205
+    },
+    {
+      "path": "data/fixed_tables/inference_inputs/development_text_cases.jsonl",
+      "size_bytes": 217698
+    },
+    {
+      "path": "data/fixed_tables/inference_inputs/heldout_image_cases.jsonl",
+      "size_bytes": 164400
+    },
+    {
+      "path": "data/fixed_tables/inference_inputs/heldout_text_cases.jsonl",
+      "size_bytes": 650664
+    },
+    {
+      "path": "data/fixed_tables/private_sources.jsonl",
+      "size_bytes": 170517
+    },
+    {
+      "path": "data/fixed_tables/text_controls.jsonl",
+      "size_bytes": 437984
+    },
+    {
+      "path": "evaluation/prompt_templates.py",
+      "size_bytes": 2546
+    },
+    {
+      "path": "evaluation/reference_checks.py",
+      "size_bytes": 9351
+    },
+    {
+      "path": "evaluation/score_fixed_tables.py",
+      "size_bytes": 4721
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 323
+    },
+    {
+      "path": "release_manifest.json",
+      "size_bytes": 26628
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 76
+    },
+    {
+      "path": "scripts/build_fixed_tables.py",
+      "size_bytes": 18467
+    },
+    {
+      "path": "scripts/generate_broad.py",
+      "size_bytes": 1016
+    },
+    {
+      "path": "scripts/generate_targeted.py",
+      "size_bytes": 8818
+    },
+    {
+      "path": "scripts/score_predictions.py",
+      "size_bytes": 2900
+    },
+    {
+      "path": "src/exbind/__init__.py",
+      "size_bytes": 347
+    },
+    {
+      "path": "src/exbind/converters/__init__.py",
+      "size_bytes": 196
+    },
+    {
+      "path": "src/exbind/converters/dom.py",
+      "size_bytes": 3461
+    },
+    {
+      "path": "src/exbind/converters/evg.py",
+      "size_bytes": 11375
+    },
+    {
+      "path": "src/exbind/evaluation/__init__.py",
+      "size_bytes": 45
+    },
+    {
+      "path": "src/exbind/evaluation/capabilities.py",
+      "size_bytes": 11749
+    },
+    {
+      "path": "src/exbind/evaluation/counterfactual.py",
+      "size_bytes": 13447
+    },
+    {
+      "path": "src/exbind/evaluation/cross_format.py",
+      "size_bytes": 25239
+    },
+    {
+      "path": "src/exbind/evaluation/failure_taxonomy.py",
+      "size_bytes": 10455
+    },
+    {
+      "path": "src/exbind/evaluation/frozen_model_pilot.py",
+      "size_bytes": 29767
+    },
+    {
+      "path": "src/exbind/evaluation/legacy_adapter.py",
+      "size_bytes": 5570
+    },
+    {
+      "path": "src/exbind/evaluation/pilot.py",
+      "size_bytes": 7795
+    },
+    {
+      "path": "src/exbind/evaluation/reward_artifacts.py",
+      "size_bytes": 3076
+    },
+    {
+      "path": "src/exbind/evaluation/splits.py",
+      "size_bytes": 1023
+    },
+    {
+      "path": "src/exbind/evaluation/stage_a_reconciliation.py",
+      "size_bytes": 9458
+    },
+    {
+      "path": "src/exbind/evaluation/strict_counterfactual.py",
+      "size_bytes": 7390
+    },
+    {
+      "path": "src/exbind/evaluation/structural_pilot.py",
+      "size_bytes": 10800
+    },
+    {
+      "path": "src/exbind/evaluation/structured_output_adapter.py",
+      "size_bytes": 1874
+    },
+    {
+      "path": "src/exbind/generators/cross_format.py",
+      "size_bytes": 17034
+    },
+    {
+      "path": "src/exbind/generators/hard_pilot.py",
+      "size_bytes": 5603
+    },
+    {
+      "path": "src/exbind/generators/hierarchical/__init__.py",
+      "size_bytes": 181
+    },
+    {
+      "path": "src/exbind/generators/hierarchical/generate.py",
+      "size_bytes": 3464
+    },
+    {
+      "path": "src/exbind/generators/relational/__init__.py",
+      "size_bytes": 171
+    },
+    {
+      "path": "src/exbind/generators/relational/generate.py",
+      "size_bytes": 4424
+    },
+    {
+      "path": "src/exbind/generators/transforms/__init__.py",
+      "size_bytes": 163
+    },
+    {
+      "path": "src/exbind/generators/transforms/generate.py",
+      "size_bytes": 3480
+    },
+    {
+      "path": "src/exbind/latent.py",
+      "size_bytes": 2048
+    },
+    {
+      "path": "src/exbind/metrics/__init__.py",
+      "size_bytes": 980
+    },
+    {
+      "path": "src/exbind/metrics/scoring.py",
+      "size_bytes": 8517
+    },
+    {
+      "path": "src/exbind/representations/__init__.py",
+      "size_bytes": 480
+    },
+    {
+      "path": "src/exbind/representations/base.py",
+      "size_bytes": 2540
+    },
+    {
+      "path": "src/exbind/representations/canvas2d.py",
+      "size_bytes": 2740
+    },
+    {
+      "path": "src/exbind/representations/graph.py",
+      "size_bytes": 2867
+    },
+    {
+      "path": "src/exbind/representations/html_dom.py",
+      "size_bytes": 2995
+    },
+    {
+      "path": "src/exbind/representations/svg.py",
+      "size_bytes": 2991
+    },
+    {
+      "path": "src/exbind/representations/table.py",
+      "size_bytes": 3041
+    },
+    {
+      "path": "src/exbind/representations/tree.py",
+      "size_bytes": 2914
+    },
+    {
+      "path": "src/exbind/reward/__init__.py",
+      "size_bytes": 465
+    },
+    {
+      "path": "src/exbind/reward/adapters.py",
+      "size_bytes": 2136
+    },
+    {
+      "path": "src/exbind/reward/components.py",
+      "size_bytes": 3655
+    },
+    {
+      "path": "src/exbind/reward/structured_reward.py",
+      "size_bytes": 1616
+    },
+    {
+      "path": "src/exbind/schema.py",
+      "size_bytes": 4025
+    }
+  ]
+}

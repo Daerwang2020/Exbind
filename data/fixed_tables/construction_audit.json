@@ -1,0 +1,48 @@
+{
+  "version": "exbind.table_controlled.human_audit.v3",
+  "sources": 96,
+  "questions": 384,
+  "development_sources": 24,
+  "heldout_sources": 72,
+  "paired_text_control_rows": 384,
+  "images": 96,
+  "semantic_targets": 96,
+  "column_permutations": 24,
+  "target_row_positions": {
+    "1": 11,
+    "2": 15,
+    "3": 13,
+    "4": 16,
+    "5": 13,
+    "6": 9,
+    "7": 11,
+    "8": 8
+  },
+  "target_columns": {
+    "owner": 48,
+    "amount": 48
+  },
+  "skin_region_stage_column_balanced": true,
+  "gold_mark_count_each_condition": {
+    "1": 12,
+    "2": 12,
+    "3": 12,
+    "4": 12,
+    "5": 12,
+    "6": 12,
+    "7": 12,
+    "8": 12
+  },
+  "invariants": [
+    "unique target under region+stage",
+    "each single attribute ambiguous",
+    "same image and candidates across four conditions",
+    "direct/compose/context same gold",
+    "counterfactual metadata changes gold",
+    "unique visible reference IDs",
+    "balanced gold mark",
+    "skin independent of target region, stage, and column"
+  ],
+  "human_audit": "project team confirms unanimous two-person blind audit",
+  "model_evaluation": "completed on three models; see analysis and FINAL_RESULTS.md"
+}

@@ -1,0 +1,2 @@
+cross_format_consistency,model,overall,reason,status
+,not_run,,no frozen-model inference launched; deterministic generator gates only,not_run

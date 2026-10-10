@@ -1,0 +1,7 @@
+all_structural_oracle_correct,candidate_rank_varies,format,interface_prompt_unique_rate,n,passed,unique_gold_candidate_ranks,unique_interface_prompts
+True,True,canvas2d,1.0,50,True,6,50
+True,True,graph,0.76,50,True,6,38
+True,True,html_dom,1.0,25,True,3,25
+True,True,svg,1.0,25,True,6,25
+True,True,table,1.0,50,True,9,50
+True,True,tree,0.86,50,True,3,43

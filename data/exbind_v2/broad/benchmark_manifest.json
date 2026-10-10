@@ -1,0 +1,140 @@
+{
+  "cross_format_groups": 50,
+  "interface_gate": [
+    {
+      "all_structural_oracle_correct": true,
+      "candidate_rank_varies": true,
+      "format": "canvas2d",
+      "interface_prompt_unique_rate": 1.0,
+      "n": 50,
+      "passed": true,
+      "unique_gold_candidate_ranks": 6,
+      "unique_interface_prompts": 50
+    },
+    {
+      "all_structural_oracle_correct": true,
+      "candidate_rank_varies": true,
+      "format": "graph",
+      "interface_prompt_unique_rate": 0.76,
+      "n": 50,
+      "passed": true,
+      "unique_gold_candidate_ranks": 6,
+      "unique_interface_prompts": 38
+    },
+    {
+      "all_structural_oracle_correct": true,
+      "candidate_rank_varies": true,
+      "format": "html_dom",
+      "interface_prompt_unique_rate": 1.0,
+      "n": 25,
+      "passed": true,
+      "unique_gold_candidate_ranks": 3,
+      "unique_interface_prompts": 25
+    },
+    {
+      "all_structural_oracle_correct": true,
+      "candidate_rank_varies": true,
+      "format": "svg",
+      "interface_prompt_unique_rate": 1.0,
+      "n": 25,
+      "passed": true,
+      "unique_gold_candidate_ranks": 6,
+      "unique_interface_prompts": 25
+    },
+    {
+      "all_structural_oracle_correct": true,
+      "candidate_rank_varies": true,
+      "format": "table",
+      "interface_prompt_unique_rate": 1.0,
+      "n": 50,
+      "passed": true,
+      "unique_gold_candidate_ranks": 9,
+      "unique_interface_prompts": 50
+    },
+    {
+      "all_structural_oracle_correct": true,
+      "candidate_rank_varies": true,
+      "format": "tree",
+      "interface_prompt_unique_rate": 0.86,
+      "n": 50,
+      "passed": true,
+      "unique_gold_candidate_ranks": 3,
+      "unique_interface_prompts": 43
+    }
+  ],
+  "model_pilot": "not_run",
+  "representations": {
+    "canvas2d": {
+      "accepted_rate": 1.0,
+      "capabilities": [
+        "identity",
+        "attribute",
+        "relation",
+        "executable",
+        "cross_format"
+      ],
+      "n_cases": 50,
+      "status": "generated"
+    },
+    "graph": {
+      "accepted_rate": 1.0,
+      "capabilities": [
+        "identity",
+        "relation",
+        "ordered_role",
+        "executable"
+      ],
+      "n_cases": 50,
+      "status": "generated"
+    },
+    "html_dom": {
+      "accepted_rate": 1.0,
+      "capabilities": [
+        "identity",
+        "hierarchy",
+        "role",
+        "executable",
+        "cross_format"
+      ],
+      "n_cases": 25,
+      "status": "generated"
+    },
+    "svg": {
+      "accepted_rate": 1.0,
+      "capabilities": [
+        "identity",
+        "attribute",
+        "relation",
+        "executable",
+        "cross_format"
+      ],
+      "n_cases": 25,
+      "status": "generated"
+    },
+    "table": {
+      "accepted_rate": 1.0,
+      "capabilities": [
+        "identity",
+        "attribute",
+        "structural_reference",
+        "executable"
+      ],
+      "n_cases": 50,
+      "status": "generated"
+    },
+    "tree": {
+      "accepted_rate": 1.0,
+      "capabilities": [
+        "identity",
+        "hierarchy",
+        "role",
+        "executable",
+        "cross_format"
+      ],
+      "n_cases": 50,
+      "status": "generated"
+    }
+  },
+  "surface_variant": "interface_gate_v1",
+  "vicob_dependency": false
+}

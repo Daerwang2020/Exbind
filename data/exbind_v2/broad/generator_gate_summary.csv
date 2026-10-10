@@ -1,0 +1,7 @@
+accepted_rate,format,gold_unique_rate,lexical_baseline_accuracy,mean_random_expected_accuracy,n,structural_oracle_accuracy,target_id_leakage_rate,type_baseline_accuracy
+1.0,canvas2d,1.0,0.0,0.16666666666666674,50,1.0,0.0,0.0
+1.0,graph,1.0,0.0,0.3333333333333335,50,1.0,0.0,0.0
+1.0,html_dom,1.0,0.0,0.3333333333333332,25,1.0,0.0,0.0
+1.0,svg,1.0,0.0,0.1666666666666666,25,1.0,0.0,0.0
+1.0,table,1.0,0.0,0.11111111111111102,50,1.0,0.0,0.0
+1.0,tree,1.0,0.0,0.3333333333333335,50,1.0,0.0,0.0
